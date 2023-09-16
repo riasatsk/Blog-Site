@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="image/favicon.png" type="image/png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Riasat's Blog Site</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">
+          <a href="index.html" class="logo-text">Riasat's Blog Site</a>
+        </div>
+        <ul class="nav-item">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="/blog.html">Blog</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="https://github.com/riasatsk" target="_blank">Github</a></li>
+        </ul>
+        <div class="menu" onclick="d.showModal()">
+          <img src="image/menu.svg" class="burger-menu" />
+        </div>
+        <dialog id="d" class="mobile-menu">
+          <h3><a href="index.html">Home</a></h3>
+          <h3><a href="/blog.html">Blog</a></h3>
+          <h3><a href="/about.html">About</a></h3>
+          <h3><a href="https://github.com/riasatsk" target="_blank">Github</a></h3>
+          <button onclick="d.close()">Close</button>
+        </dialog>
+      </nav>
+      <main>
+        <!-- Design your page from here -->
+
+        <!-- End -->
+      </main>
+      <footer>Riasat's Blog Site - 2023</footer>
+    </div>
+  </body>
+</html>

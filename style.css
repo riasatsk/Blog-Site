@@ -1,0 +1,143 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+  grid-area: nav;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .logo {
+  border: 1.5px solid;
+  padding: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav .logo:hover {
+  border: 1.5px solid aqua;
+}
+
+.logo-text {
+  font-size: larger;
+  font-weight: bold;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  gap: 1rem;
+  list-style: none;
+  align-items: center;
+}
+nav li {
+  margin-right: 5px;
+}
+nav a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+nav ul a:hover {
+  outline: 1px solid aqua;
+  padding: 3px;
+}
+
+.menu {
+  align-self: center;
+  display: none;
+}
+.burger-menu {
+  height: 2rem;
+  display: none;
+}
+.mobile-menu {
+  visibility: hidden;
+}
+@media (max-width: 500px) {
+  .menu {
+    align-self: center;
+    display: inline;
+  }
+  .menu:hover {
+    outline: 1.5px solid aqua;
+  }
+  .burger-menu {
+    height: 2rem;
+    display: inline;
+    margin-right: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .mobile-menu {
+    visibility: visible;
+    height: 75vh;
+    width: 80vw;
+    background-color: black;
+    color: white;
+    border: 2px solid aqua;
+    border-radius: 10px;
+  }
+  .mobile-menu[open] {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mobile-menu h3 {
+    margin: 10px;
+    padding: 5px;
+  }
+  .mobile-menu h3:hover {
+    outline: 1.5px solid aqua;
+  }
+
+  .mobile-menu button {
+    padding: 10px 20px;
+    background-color: #e74c3c; /* Red color, you can change this */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  .mobile-menu button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+  .mobile-menu button:active,
+  .mobile-menu button:focus {
+    outline: none; /* Remove default focus outline */
+    background-color: #962d22; /* Darker red for active/focused state */
+  }
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: footer;
+  border: 1px solid;
+  padding: 3px;
+  text-align: center;
+  font-style: italic;
+  font-size: small;
+}
+
+.container {
+  display: grid;
+  gap: 2px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas:
+    "nav nav nav"
+    "main main main"
+    "footer footer footer";
+}
