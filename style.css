@@ -77,12 +77,11 @@ nav ul a:hover {
 
   .mobile-menu {
     visibility: visible;
-    height: 75vh;
-    width: 80vw;
+    height: 50vh;
+    width: 60vw;
     background-color: black;
     color: white;
     border: 2px solid aqua;
-    border-radius: 10px;
   }
   .mobile-menu[open] {
     display: flex;
@@ -90,15 +89,16 @@ nav ul a:hover {
     justify-content: center;
     align-items: center;
   }
-  .mobile-menu h3 {
+  .mobile-menu h1 {
     margin: 10px;
     padding: 5px;
   }
-  .mobile-menu h3:hover {
+  .mobile-menu h1:hover {
     outline: 1.5px solid aqua;
   }
 
   .mobile-menu button {
+    margin-top: 10px;
     padding: 10px 20px;
     background-color: #e74c3c; /* Red color, you can change this */
     color: #fff; /* White text color */
