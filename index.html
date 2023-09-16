@@ -22,7 +22,7 @@
             <a href="https://github.com/riasatsk" target="_blank">Github</a>
           </li>
         </ul>
-        <div class="menu" onclick="d.showModal()">
+        <div class="menu" id="openMenu" onclick="d.showModal()">
           <img src="image/menu.svg" class="burger-menu" />
         </div>
         <dialog id="d" class="mobile-menu">
@@ -47,5 +47,17 @@
       </main>
       <footer>Riasat's Blog Site - 2023</footer>
     </div>
+    <script>
+              const vibrateButton = document.getElementById("openMenu");
+
+        vibrateButton.addEventListener("click", () => {
+            if ("vibrate" in navigator) {
+                // Vibrate for 200 milliseconds
+                navigator.vibrate(200);
+            } else {
+                console.log("Vibration not supported in this browser.");
+            }
+        });
+    </script>
   </body>
 </html>
