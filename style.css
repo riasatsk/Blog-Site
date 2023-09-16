@@ -12,13 +12,12 @@ nav {
 }
 
 nav .logo {
-  border: 1.5px solid;
   padding: 5px;
   font-family: Bungee Spice;
 }
 
 nav .logo:hover {
-  border: 1.5px solid aqua;
+  outline: 1.5px solid aqua;
 }
 
 .logo-text {
@@ -37,6 +36,7 @@ nav li {
   margin-right: 5px;
 }
 nav a {
+  font-family: Bungee Spice;
   color: aliceblue;
   text-decoration: none;
 }

@@ -1,0 +1,42 @@
+
+main {
+  margin: 0;
+  overflow: hidden;
+}
+
+.slideshow-container {
+  display: flex;
+  width: 200%; /* Double the width to accommodate two images side by side */
+  animation: slide 10s linear infinite; /* Adjust the duration as needed */
+}
+
+.image1, .image2 {
+  width: 100vw; /* Set the width of each image */
+  height: 85vh;
+  background-size: cover;
+}
+
+.image1 {
+  background-image: url('image/night.png'); /* Replace with your image file path */
+}
+
+.image2 {
+  background-image: url('image/night.png'); /* Replace with your image file path */
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%); /* Move both images to the left by 100% (the width of one image) */
+  }
+}
+
+@media screen and (max-width:700px) {
+    .image1, .image2 {
+  width: 100%; /* Set the width of each image */
+  height: 50vh;
+  background-size: cover;
+}
+}
