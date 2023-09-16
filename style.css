@@ -103,22 +103,20 @@ nav ul a:hover {
   .mobile-menu button {
     margin-top: 10px;
     padding: 10px 20px;
-    background-color: #e74c3c; /* Red color, you can change this */
-    color: #fff; /* White text color */
-    border: none;
+    font-family: Bungee Spice;
+    background-color: black;
+    border: 2px solid tomato;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;
     font-size: 16px;
-    transition: background-color 0.3s;
   }
   .mobile-menu button:hover {
-    background-color: #c0392b; /* Darker red on hover */
+    zoom: 1.05;
   }
   .mobile-menu button:active,
   .mobile-menu button:focus {
     outline: none; /* Remove default focus outline */
-    background-color: #962d22; /* Darker red for active/focused state */
   }
 }
 
