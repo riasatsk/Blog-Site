@@ -47,17 +47,6 @@
       </main>
       <footer>Riasat's Blog Site - 2023</footer>
     </div>
-    <script>
-              const vibrateButton = document.getElementById("openMenu");
-
-        vibrateButton.addEventListener("click", () => {
-            if ("vibrate" in navigator) {
-                // Vibrate for 200 milliseconds
-                navigator.vibrate(200);
-            } else {
-                console.log("Vibration not supported in this browser.");
-            }
-        });
-    </script>
+    <script src="JavaScript/vibration.js"></script>
   </body>
 </html>
