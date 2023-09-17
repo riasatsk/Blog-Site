@@ -8,7 +8,7 @@ main {
 
 .img1 {
   height: 75vh;
-  width: auto;
+  width: 100vw;
   animation: slide1 10s infinite linear;
 }
 @media screen and (max-width:500px) {
