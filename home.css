@@ -12,7 +12,9 @@ main {
   animation: slide1 10s infinite linear;
 }
 @media screen and (max-width:500px) {
-  
+  .img1{
+    height: auto;
+  }
 }
 
 
