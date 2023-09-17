@@ -7,16 +7,10 @@ main {
 }
 
 .img1 {
-  height: 75vh;
+  height: auto;
   width: 100vw;
   animation: slide1 10s infinite linear;
 }
-@media screen and (max-width:500px) {
-  .img1{
-    height: auto;
-  }
-}
-
 
 @keyframes slide1 {
   from {
