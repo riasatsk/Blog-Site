@@ -10,7 +10,7 @@ main {
 .img1 {
   margin: 0;
   padding: 0;
-  height: auto;
+  height: 80vh;
   width: 95vw;
   animation: slide1 10s infinite linear;
 }
