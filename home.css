@@ -11,6 +11,11 @@ main {
   width: 100vw;
   animation: slide1 10s infinite linear;
 }
+@media screen and (max-width:500px) {
+  
+}
+
+
 @keyframes slide1 {
   from {
     transform: translateX(0%);
