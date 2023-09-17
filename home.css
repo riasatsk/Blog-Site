@@ -1,19 +1,9 @@
 ::-webkit-scrollbar {
-    width: 1px; /* Set the width of the scrollbar */
+    width: 0px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #132ba2;
-}
-
-::-webkit-scrollbar-thumb {
-    background-color: #888; /* Color of the thumb */
-    border-radius: 5px; /* Rounded corners for the thumb */
-}
-
-/* Change thumb color on hover */
-::-webkit-scrollbar-thumb:hover {
-    background-color: #555;
+    background-color: #13096c;
 }
 main {
   margin: 0;
