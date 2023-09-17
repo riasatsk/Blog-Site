@@ -1,9 +1,9 @@
 ::-webkit-scrollbar {
-    width: 0px;
+  width: 0px;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #13096c;
+  background-color: #13096c;
 }
 main {
   margin: 0;
@@ -31,4 +31,3 @@ main {
     transform: translateX(-100%);
   }
 }
-
