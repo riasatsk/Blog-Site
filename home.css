@@ -7,7 +7,7 @@ main {
 }
 
 .img1 {
-  height: auto;
+  height: 75dvh;
   width: 100vw;
   animation: slide1 10s infinite linear;
 }
