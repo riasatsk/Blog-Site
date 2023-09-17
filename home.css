@@ -4,14 +4,13 @@ main {
 }
 .slideshow-container {
   display: flex;
-  gap: 0px;
 }
 
 .img1 {
   margin: 0;
   padding: 0;
-  height: 80vh;
-  width: 95vw;
+  height: auto;
+  width: 80vw;
   animation: slide1 10s infinite linear;
 }
 @keyframes slide1 {
@@ -24,10 +23,3 @@ main {
   }
 }
 
-@media screen and (max-width:500px){
-  .img1 {
-  height: 35vh;
-  width: 95vw;
-  animation: slide1 10s infinite linear;
-}
-}
