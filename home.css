@@ -11,7 +11,7 @@ main {
   margin: 0;
   padding: 0;
   height: auto;
-  width: 98vw;
+  width: 95vw;
   animation: slide1 10s infinite linear;
 }
 @keyframes slide1 {
