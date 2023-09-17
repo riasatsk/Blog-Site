@@ -23,3 +23,11 @@ main {
     transform: translateX(-100%);
   }
 }
+
+@media screen and (max-width:500px){
+  .img1 {
+  height: 35vh;
+  width: 95vw;
+  animation: slide1 10s infinite linear;
+}
+}
