@@ -7,8 +7,6 @@ main {
 }
 
 .img1 {
-  margin: 0;
-  padding: 0;
   height: auto;
   width: 75vw;
   animation: slide1 10s infinite linear;
